@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_floating_material_dark">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <EditText
+            android:id="@+id/Title"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:hint="Book title"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/Publisher"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:hint="Book publisher"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/Year_published"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:hint="Year published"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/ISBN_number"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+
+            android:hint="ISBN"
+            android:singleLine="true" />
+
+
+        <EditText
+            android:id="@+id/BookCondition"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+
+            android:hint="Book condition"
+            android:singleLine="true" />
+
+
+        <EditText
+            android:id="@+id/ModuleBookUsedFor"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+
+            android:hint="Module book used for"
+            android:singleLine="true" />
+
+
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+
+            android:layout_marginBottom="15dip"
+            android:hint="Book description"
+            android:gravity="top"
+            android:lines="3" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Image(If any)"
+            android:textSize="17dip" />
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.14"
+            android:src="@drawable/colorful_books" />
+
+        <Button
+            android:id="@+id/browse"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Browse for Image" />
+        <EditText
+            android:id="@+id/cont"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:gravity="top"
+            android:lines="2" />
+
+
+        <Button
+            android:id="@+id/R_addBook"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#B20000"
+            android:textColor="#ffffff"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+
+</ScrollView>
