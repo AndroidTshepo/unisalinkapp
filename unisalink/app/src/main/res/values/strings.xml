@@ -8,4 +8,5 @@
     <string name="title_activity_activity_register">activity_register</string>
     <string name="title_activity_activity_add_book">activity_add_book</string>
     <string name="title_activity_activity_read_post">activity_read_post</string>
+    <string name="title_activity_activity_message">Message</string>
 </resources>

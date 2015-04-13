@@ -32,6 +32,10 @@
             android:name=".activity_read_post"
             android:label="Catalog" >
         </activity>
+        <activity
+            android:name=".activity_message"
+            android:label="@string/title_activity_activity_message" >
+        </activity>
     </application>
 
 </manifest>

@@ -31,7 +31,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Sell your books today..."
         android:id="@+id/textView"
-        android:textColor="#000"
+        android:textColor="@color/BlackText"
         android:textSize="26dp"
         android:layout_alignBottom="@+id/unilink"
         android:layout_centerHorizontal="true" />

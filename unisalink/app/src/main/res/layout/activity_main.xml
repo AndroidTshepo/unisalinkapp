@@ -34,13 +34,7 @@
                 android:layout_height="fill_parent"
                 android:src="@drawable/logo_unilink"/>
 
-            <!--<ImageButton-->
-            <!--android:layout_width="300dp"-->
-            <!--android:layout_height="70dp"-->
-            <!--android:id="@+id/imageButton"-->
-            <!--android:src="@drawable/logo_unilink"-->
-            <!--android:background="#00000000"-->
-            <!--android:layout_gravity="center_vertical" />-->
+
         </LinearLayout>
 
         <LinearLayout
@@ -59,8 +53,8 @@
                 android:id="@+id/etUserName"
                 android:hint="Username / Email Address"
                 android:clickable="true"
-                android:textColor="#fff"
-                android:textColorHint="#fff" />
+                android:textColor="@color/WhiteText"
+                android:textColorHint="@color/WhiteText" />
 
             <EditText
                 android:layout_width="fill_parent"
@@ -70,8 +64,8 @@
                 android:id="@+id/etPassword"
                 android:layout_below="@+id/etUserName"
                 android:hint="Password"
-                android:textColor="#ffffff"
-                android:textColorHint="#fff" />
+                android:textColor="@color/WhiteText"
+                android:textColorHint="@color/WhiteText"/>
         </LinearLayout>
 
         <LinearLayout
@@ -86,7 +80,8 @@
                 android:layout_height="wrap_content"
                 android:text="Remember me"
                 android:id="@+id/cbRememberMe"
-                android:textColor="#fff" />
+                android:textColor="#fff"
+                android:clickable="true" />
         </LinearLayout>
 
         <LinearLayout
@@ -101,8 +96,8 @@
                 android:id="@+id/login"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:background="#B20000"
-                android:textColor="#ffffff"
+                android:background="@color/ButtonColor"
+                android:textColor="@color/WhiteText"
                 android:text="login"
                 android:layout_below="@+id/cellphone" />
 
@@ -121,7 +116,7 @@
                 android:text="Forgot your password?"
                 android:ems="10"
                 android:id="@+id/libForgotPassword"
-                android:textColor="#fff"
+                android:textColor="@color/WhiteText"
                 android:layout_weight="1" />
 
             <TextView
@@ -131,7 +126,7 @@
                 android:ems="10"
                 android:id="@+id/lbSignUp"
                 android:layout_weight="1"
-                android:textColor="#fff"
+                android:textColor="@color/WhiteText"
                 android:gravity="right" />
 
         </LinearLayout>

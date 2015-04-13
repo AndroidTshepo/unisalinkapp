@@ -19,10 +19,9 @@
             android:layout_weight="0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#B20000"
-            android:textColor="#ffffff"
-            android:text="Add Book"/>
-
+            android:background="@color/ButtonColor"
+            android:textColor="@color/WhiteText"
+            android:text="Add Book" />
 
 
     </LinearLayout>

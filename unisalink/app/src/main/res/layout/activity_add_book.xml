@@ -18,16 +18,16 @@
             android:layout_margin="5dip"
             android:layout_marginBottom="15dip"
             android:hint="Book title"
-            android:textColorHint="#ffffff"
-            android:textColor="#ffffff"
+            android:textColorHint="@color/WhiteText"
+            android:textColor="@color/WhiteText"
             android:singleLine="true" />
 
         <EditText
             android:id="@+id/Publisher"
             android:layout_width="377dp"
             android:layout_height="wrap_content"
-            android:textColorHint="#ffffff"
-            android:textColor="#ffffff"
+            android:textColorHint="@color/WhiteText"
+            android:textColor="@color/WhiteText"
             android:layout_margin="5dip"
             android:layout_marginBottom="15dip"
             android:hint="Book publisher"
@@ -39,8 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dip"
             android:layout_marginBottom="15dip"
-            android:textColorHint="#ffffff"
-            android:textColor="#ffffff"
+            android:textColorHint="@color/WhiteText"
+            android:textColor="@color/WhiteText"
             android:hint="Year published"
             android:singleLine="true" />
 
@@ -50,8 +50,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dip"
             android:layout_marginBottom="15dip"
-            android:textColorHint="#ffffff"
-            android:textColor="#ffffff"
+            android:textColorHint="@color/WhiteText"
+            android:textColor="@color/WhiteText"
 
             android:hint="ISBN"
             android:singleLine="true" />
@@ -63,8 +63,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dip"
             android:layout_marginBottom="15dip"
-            android:textColorHint="#ffffff"
-            android:textColor="#ffffff"
+            android:textColorHint="@color/WhiteText"
+            android:textColor="@color/WhiteText"
 
             android:hint="Book condition"
             android:singleLine="true" />
@@ -76,8 +76,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dip"
             android:layout_marginBottom="15dip"
-            android:textColorHint="#ffffff"
-            android:textColor="#ffffff"
+            android:textColorHint="@color/WhiteText"
+            android:textColor="@color/WhiteText"
 
             android:hint="Module book used for"
             android:singleLine="true" />
@@ -89,8 +89,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dip"
-            android:textColorHint="#ffffff"
-            android:textColor="#ffffff"
+            android:textColorHint="@color/WhiteText"
+            android:textColor="@color/WhiteText"
 
             android:layout_marginBottom="15dip"
             android:hint="Book description"
@@ -100,8 +100,8 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="#ffffff"
-            android:textColor="#ffffff"
+            android:textColorHint="@color/WhiteText"
+            android:textColor="@color/WhiteText"
 
             android:paddingLeft="10dip"
             android:paddingRight="10dip"
@@ -121,14 +121,16 @@
             style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/UploadButton2"
+            android:textColor="@color/WhiteText"
             android:text="Browse for Image" />
         <EditText
             android:id="@+id/cont"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="Phone number"
-            android:textColorHint="#ffffff"
-            android:textColor="#ffffff"
+            android:textColorHint="@color/WhiteText"
+            android:textColor="@color/WhiteText"
 
             android:layout_margin="5dip"
             android:layout_marginBottom="15dip"
@@ -140,8 +142,8 @@
             android:id="@+id/R_addBook"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="#B20000"
-            android:textColor="#ffffff"
+            android:background="@color/ButtonColor"
+            android:textColor="@color/WhiteText"
             android:text="Submit" />
 
 
